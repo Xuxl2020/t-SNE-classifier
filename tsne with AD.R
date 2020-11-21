@@ -12,7 +12,7 @@ library(rpart) # DT package
 library(tsne) # tsne package
 
 # load data
-dat <- read.csv('dataset-4.csv', header = T)
+dat <- read.csv('dataset-2.csv', header = T)
 
 # variables and group
 vars <- dat[,-c(1, 2)]
